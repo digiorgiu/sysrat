@@ -1,0 +1,8 @@
+[package]
+name = "sysrat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.52.3", features = ["full"] }
+zbus_systemd = { version = "0.26100.0", features = ["zbus-async-tokio", "systemd1"] }
